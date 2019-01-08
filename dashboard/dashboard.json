@@ -1,0 +1,257 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1546508842519,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "6031dbe9-9012-422c-b29f-8b4eb0b75432",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "VM Compare Dashboard",
+      "rank": 100,
+      "shared": false,
+      "temporary": false,
+      "userId": "8d1ea156-cf03-4e54-b31c-89a088178e9e",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4a562beb-8b4f-4039-995b-59f70117e7a4",
+            "widgetIdReceiver": "75701527-161d-4347-9753-789af49d1181"
+         },
+         {
+            "type": "metricId",
+            "widgetIdProvider": "75701527-161d-4347-9753-789af49d1181",
+            "widgetIdReceiver": "c336c58f-7c50-4e93-ab90-5c960b84dc4b"
+         },
+         {
+            "type": "metricId",
+            "widgetIdProvider": "c336c58f-7c50-4e93-ab90-5c960b84dc4b",
+            "widgetIdReceiver": "83078918-d34d-45f7-8df2-b6e07ba2e14d"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Power State",
+                     "metricKey": "summary|runtime|powerState",
+                     "metricName": "Summary|Runtime|Power State",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "IP Address",
+                     "metricKey": "summary|guest|ipAddress",
+                     "metricName": "Summary|Guest Operating System|Guest OS IP Address",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Cluster",
+                     "metricKey": "summary|parentCluster",
+                     "metricName": "Summary|Parent Cluster",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Host",
+                     "metricKey": "summary|parentHost",
+                     "metricName": "Summary|Parent Host",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1. Select Multiple Virtual Machines"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 553,
+            "id": "4a562beb-8b4f-4039-995b-59f70117e7a4",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_4a562beb-8b4f-4039-995b-59f70117e7a4",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_4a562beb-8b4f-4039-995b-59f70117e7a4",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A120%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A205%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "1. Select Multiple Virtual Machines",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "2. Select Metric"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 553,
+            "id": "75701527-161d-4347-9753-789af49d1181",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permMetricPicker_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1"
+               },
+               {
+                  "key": "permFetchCommonMetrics_permMetricPicker_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permFetchPropertyMetrics_permMetricPicker_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_permMetricPicker_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permFetchCollectingMetrics_permMetricPicker_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_75701527-161d-4347-9753-789af49d1181",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "2. Select Metric",
+            "type": "MetricPicker"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "4. Metric Chart"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 5,
+               "y": 11
+            },
+            "height": 551,
+            "id": "83078918-d34d-45f7-8df2-b6e07ba2e14d",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_83078918-d34d-45f7-8df2-b6e07ba2e14d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "4. Metric Chart",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "columnSequence": {"columnSequence": "graphFirst"},
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showResourceName": {"showObjectName": true},
+               "title": "3. Sparkline Chart"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 1,
+               "y": 11
+            },
+            "height": 551,
+            "id": "c336c58f-7c50-4e93-ab90-5c960b84dc4b",
+            "states": [
+               {
+                  "key": "permDateRange_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_c336c58f-7c50-4e93-ab90-5c960b84dc4b",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_6031dbe9-9012-422c-b29f-8b4eb0b75432_c336c58f-7c50-4e93-ab90-5c960b84dc4b",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "3. Sparkline Chart",
+            "type": "SparklineChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "VMWARE",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "VirtualMachine"
+   }]},
+   "uuid": "6575648f-05c0-4683-9ef0-6b0a6563840d"
+}
